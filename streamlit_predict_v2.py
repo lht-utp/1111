@@ -22,7 +22,7 @@ if page == "简介页面":
 该数据集是由 Gorman 等收集，并发布在一个名为 palmerpenguins 的 R 语言包，以对南极企鹅种类进行分类和研究。
 该数据集记录了 344 行观测数据，包含 3 个不同物种的企鹅：阿德利企鹅、巴布亚企鹅和帽带企鹅的各种信息。""")
     st.header('三种企鹅的卡通图像')
-    st.image('images/penguins.png')
+    st.image('penguins.png')
 
 elif page == "预测分类页面":
     st.header("预测企鹅分类")
@@ -83,5 +83,6 @@ elif page == "预测分类页面":
             st.image('rigth_logo.png', width=300)
         else:
             st.image(f'{predict_result_species}.png', width=300)
+
 
 
